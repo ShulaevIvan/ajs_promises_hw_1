@@ -1,0 +1,23 @@
+{
+  "name": "promise_hw2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0"
+  }
+}
